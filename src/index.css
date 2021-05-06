@@ -8,6 +8,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: white;
+  overflow: hidden;
+  background: url(../src/assests/images/bg.jpeg);
+  /* background: transparent; */
+  /* background-repeat: no-repeat; */
 }
 
 code {
