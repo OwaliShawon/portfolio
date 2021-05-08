@@ -1,6 +1,7 @@
 import React from 'react';
 import projectsData from "../../utils/projectsData";
-import Project from './Project/Project';
+import TimeLine from './projects-timeline/projects-timeline.component';
+
 
 const Projects = () => {
     const projects = projectsData.projects;
@@ -8,9 +9,8 @@ const Projects = () => {
     console.log(projects);
     return (
         <div>
-            {
-                projects.map(project => (<Project project={project}></Project>))
-            }
+            <h1 className="pt-3 text-center pb-3">PROJECTS</h1>
+            <TimeLine></TimeLine>
         </div>
     );
 };

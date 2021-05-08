@@ -3,8 +3,9 @@ import React from 'react';
 import "./Portfolio.css";
 import resumeData from '../../../utils/resumeData';
 import About from '../About/About';
-import Skills from '../Skills/Skills';
 import WorkEducation from '../WorkEducation/WorkEducation';
+import Skills from '../skills/skills.component';
+
 
 const Portfolio = () => {
     const about = resumeData.aboutme;
