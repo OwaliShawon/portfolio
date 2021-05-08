@@ -3,7 +3,8 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div>
-            <h1>This is blogs</h1>
+            <h2 className="text-center">Blogs are coming soon</h2>
+            {/* <BlogTimeLine></BlogTimeLine> */}
         </div>
     );
 };

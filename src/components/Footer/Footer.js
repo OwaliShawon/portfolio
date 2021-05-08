@@ -1,10 +1,10 @@
 import React from 'react';
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
     return (
         <div className="footer">
-            <p>Made with &lt;3 by Self!</p>
+            <p>A OwaliShawon Portfolio</p>
         </div>
     );
 };

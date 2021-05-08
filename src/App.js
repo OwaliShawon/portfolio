@@ -1,18 +1,17 @@
 import { Container, Grid } from '@material-ui/core';
+import {
+  BrowserRouter as Router,
+
+  Route, Switch
+} from "react-router-dom";
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Profile from './components/Profile/Profile';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Portfolio from './pages/Portfolio/Portfolio/Portfolio';
-import Projects from './pages/Projects/Projects';
 import Blogs from './pages/Blogs/Blogs/Blogs';
 import Contact from './pages/Contact/Contact/Contact';
+import Portfolio from './pages/Portfolio/Portfolio/Portfolio';
+import Projects from './pages/Projects/Projects';
 
 function App() {
   return (

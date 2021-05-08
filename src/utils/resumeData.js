@@ -48,6 +48,7 @@ const resumeData = {
     education: [
         {
             title: "Daffodil International University",
+            degree: "BSc in Computer Science & Engineering",
             date: " May 2017 – May 2021",
             description: "lorem"
         },

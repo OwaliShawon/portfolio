@@ -7,10 +7,10 @@ const About = () => {
     return (
         <Grid container className="section">
             <Grid item className="section-title">
-                <Typography variant="h5">About Me</Typography>
+                <Typography variant="h5" className="text-center">About Me</Typography>
             </Grid>
             <Grid>
-                <Typography variant="h6">{aboutme}</Typography>
+                <Typography variant="h8">{aboutme}</Typography>
             </Grid>
         </Grid>
     );
