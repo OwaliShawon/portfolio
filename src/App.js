@@ -42,7 +42,7 @@ function App() {
           </Router>
         </Grid>
       </Grid>
-    </Container>
+    </Container >
   );
 }
 

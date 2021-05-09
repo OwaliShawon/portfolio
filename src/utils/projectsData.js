@@ -1,4 +1,4 @@
-import weddingartista from "../assests/images/projects-images/wedding-artista-web-app.png";
+import weddingartista from "../assests/images/projects/wedding-artista-home.png";
 
 
 const projectsData = {
