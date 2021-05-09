@@ -50,17 +50,17 @@ const resumeData = {
             title: "Daffodil International University",
             degree: "BSc in Computer Science & Engineering",
             date: " May 2017 – May 2021",
-            description: "lorem"
+            description: ""
         },
         {
             title: "Dhaka College",
             date: "June 2014 – May 2015",
-            description: "lorem"
+            description: ""
         },
         {
             title: "A.K High School",
             date: "2013",
-            description: "lorem"
+            description: ""
         }
     ],
 

@@ -1,9 +1,9 @@
 import { Button, Typography } from '@material-ui/core';
 import React from 'react';
-import "./Profile.css";
 import dp from "../../assests/images/dp.jpg";
-import ProfileTimeline from '../Timeline/ProfileTimeline';
 import resumeData from "../../utils/resumeData";
+import ProfileTimeline from '../Timeline/ProfileTimeline';
+import "./Profile.css";
 
 const Profile = () => {
     console.log(resumeData.name);
@@ -21,7 +21,9 @@ const Profile = () => {
             <div className="profile-information">
                 <ProfileTimeline></ProfileTimeline>
                 <br />
-                <a href="https://drive.google.com/file/d/18WdBXUAPfcX3E1iPYWmJUtG0qM2o4vqK/view?usp=sharing"><Button>Download Resume</Button></a>
+                <a href="https://drive.google.com/file/d/18WdBXUAPfcX3E1iPYWmJUtG0qM2o4vqK/view?usp=sharing" >
+                    <Button variant="contained" color="primary" size="small" style={{ margin: "5px" }} >Download Resume</Button>
+                </a>
             </div>
         </div>
     );
