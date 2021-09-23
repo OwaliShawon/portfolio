@@ -1,3 +1,6 @@
+Live Site Firebase: https://portfolio-79258.web.app/  o r  https://portfolio-79258.firebaseapp.com/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
